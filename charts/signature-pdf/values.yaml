@@ -1,0 +1,13 @@
+web-app:
+  appName: signaturepdf
+  volume:
+    name: signaturepdf-data
+    mountPath: /data
+    size: 1Gi
+    accessMode: ReadWriteOnce
+  image:
+    repo: xgaia/signaturepdf
+    tag: 1.3.1
+    pullPolicy: Always
+  readinessProbe:
+    path: /signature
