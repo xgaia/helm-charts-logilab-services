@@ -7,8 +7,8 @@ keywords:
 home: https://github.com/24eme/signaturepdf
 description: A Helm chart for signaturepdf
 type: application
-version: 0.1.2
+version: 0.1.3
 dependencies:
   - name: web-app
-    version: 0.1.2
+    version: 0.1.1
     repository: https://helm.logilab.fr
