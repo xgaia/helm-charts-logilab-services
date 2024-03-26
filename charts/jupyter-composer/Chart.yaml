@@ -1,7 +1,7 @@
 apiVersion: v2
 name: jupyter-composer
 description: The JupyterLab IDE with Python, Julia, and a collection of standard data science packages.
-icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/jupyter.png
+icon: https://jupyter-ai.readthedocs.io/en/latest/_static/jupyter_logo.png
 keywords:
   - Jupyter
   - Python
@@ -24,7 +24,7 @@ type: application
 # to the chart and its templates, including the app version.
 # Versions are expected to follow Semantic Versioning (https://semver.org/)
 
-version: 1.1.0
+version: 1.2.0
 
 dependencies:
   - name: library-chart
